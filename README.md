@@ -8,7 +8,7 @@ matching the lip movements of the characters in the given video file with the co
 
 Steps
 1) I ran the setup code in the first cell
-2) After setup, I gave the input video url and the trimmed video in seconds(which has faces on all). Since the video contained photos and posters in between the pesrson's face, I selected the maximum screentime of the person without interruptions, which was around 20 seconds (from 31 to 51 seconds).
+2) After setup, I gave the input video url and the trimmed video in seconds(which has faces on all frames). Since the video contained photos and posters in between the pesrson's face, I selected the maximum screentime of the person without interruptions, which was around 20 seconds (from 31 to 51 seconds).
 3) Then I given the audio file which I have uploaded as input and also specified its path.
 4) Then at the final step, I was getting the output which was not perfect. I surfed wav2lip documentation and found that they have some fine tuning parameters to get optimal results.
 5) I tried different combinations of paddings, rescale_factors and nosmooth. After a lot of output generations, I was seeing some improvements and kept on generating the outputs by tuning the paddings hoping to achieve a perfect sync.
