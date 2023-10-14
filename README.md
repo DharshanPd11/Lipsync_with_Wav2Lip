@@ -3,7 +3,8 @@ ASSIGNMENT_1
 * The task is to synchronize an audio file with a video file. and ensure the model is accurately
 matching the lip movements of the characters in the given video file with the corresponding audio file.
 * I explored the given pre-trained model and realized that I cannot download and run it locally as it is a huge model and also has GPU requirements.
-* So, I planned to run the model in their updated Google colab notebook.
+* So, I planned to run the model in their test Google colab notebook - https://colab.research.google.com/drive/1IjFW1cLevs6Ouyu4Yht4mnR4yeuMqO7Y#scrollTo=MH1m608OymLH.
+  
 
 Steps
 1) I ran the setup code in the first cell
