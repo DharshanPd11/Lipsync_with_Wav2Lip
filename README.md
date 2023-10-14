@@ -12,7 +12,7 @@ Steps
 3) Then I given the audio file which I have uploaded as input and also specified its path.
 4) Then at the final step, I was getting the output which was not perfect. I surfed wav2lip documentation and found that they have some fine tuning parameters to get optimal results.
 5) I tried different combinations of paddings, rescale_factors and nosmooth. After a lot of output generations, I was seeing some improvements and kept on generating the outputs by tuning the paddings hoping to achieve a perfect sync.
-6) Finally, i compared the results and found this output as the best among those.
+6) Finally, I compared the results and found this output as the best among those.
 
 OUTPUT LINK: https://drive.google.com/file/d/1URNhfoxSD-hvMt-XsqU3RYtfwk6RhXoY/view?usp=sharing
 
